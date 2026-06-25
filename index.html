@@ -180,6 +180,25 @@
     .entry-tag .ver{margin-bottom:0;}
   }
 
+  /* ---------- CHANGELOG ---------- */
+  .changelog{
+    border-top:1px solid var(--line);
+    padding-top:32px;
+    margin-top:16px;
+  }
+  .changelog .entry{
+    padding:16px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .changelog .entry:last-child{border-bottom:none; padding-bottom:0;}
+  .changelog .entry-tag .emoji{display:block; font-size:1.2rem; margin-bottom:2px;}
+  .changelog .entry-desc{
+    font-family:var(--mono);
+    color:var(--text);
+    font-size:0.95rem;
+    margin-bottom:0;
+  }
+
   /* ---------- CONTACT ---------- */
   .contact{
     border-top:1px solid var(--line);
@@ -275,6 +294,35 @@
       </div>
     </div>
 
+    <!-- CHANGELOG SECTION -->
+    <div class="changelog">
+      <div class="eyebrow" style="margin-bottom:8px;">// change log</div>
+      <div class="entry">
+        <div class="entry-tag"><span class="emoji">🔧</span>v1.0.0</div>
+        <div>
+          <div class="entry-desc">broke 3 things</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="entry-tag"><span class="emoji">😅</span>v1.0.0</div>
+        <div>
+          <div class="entry-desc">3 hours of troubleshooting</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="entry-tag"><span class="emoji">💀</span>v1.0.0</div>
+        <div>
+          <div class="entry-desc">gave up and removed it all</div>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="entry-tag"><span class="emoji">🚀</span>v1.0.0</div>
+        <div>
+          <div class="entry-desc">shipped</div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -285,6 +333,8 @@
     <div class="contact-links">
       <a href="mailto:chris.me9343@gmail.com"><span class="arrow">→</span>chris.me9343@gmail.com</a>
       <a href="https://github.com/2yrk"><span class="arrow">→</span>github.com/2yrk</a>
+      <a href="https://www.instagram.com/cfwtt/"><span class="arrow">→</span>instagram.com/cfwtt</a>
+      <a href="https://guns.lol/21z"><span class="arrow">→</span>guns.lol/21z</a>
     </div>
   </div>
 </section>
